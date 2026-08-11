@@ -1,0 +1,27 @@
+# Java / Spring Boot
+secure-api-governance-backend/target/
+*.class
+*.log
+
+# Node / React
+secure-api-governance-frontend/node_modules/
+secure-api-governance-frontend/dist/
+secure-api-governance-frontend/.vite/
+
+# Environment / Secrets
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.temp
