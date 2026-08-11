@@ -61,7 +61,7 @@ Manage protected API resources such as:
 
 ## 🛠️ Tech Stack
 
-**Frontend:** React.js, JavaScript, Vite, CSS  
+**Frontend:** React.js, JavaScript, Vite, Tailwind CSS  
 **Backend:** Java, Spring Boot, Spring Security, Spring Data JPA, Hibernate  
 **Database:** MySQL  
 **Build Tools:** Maven, npm
