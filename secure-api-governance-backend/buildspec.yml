@@ -8,12 +8,14 @@ phases:
   pre_build:
     commands:
       - echo "Starting Maven build..."
+      - cd secure-api-governance-backend
       - java -version
       - mvn -version
 
   build:
     commands:
-      - echo "Building application..."
+      - cd secure-api-governance-backend
+      - echo "Building Spring Boot application..."
       - mvn clean package
 
   post_build:
@@ -22,4 +24,4 @@ phases:
 
 artifacts:
   files:
-    - target/*.jar
+    - secure-api-governance-backend/target/*.jar
